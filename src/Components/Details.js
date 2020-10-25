@@ -19,7 +19,7 @@ export default class Details extends Component {
             inCart,
           } = value.detailProduct;
           console.log(id, company, img, info, price, title, inCart);
-          const titleV = JSON.stringify(title);
+          // const titleV = JSON.stringify(title);
           return (
             <div className="container py-3">
               {/* Title */}
